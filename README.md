@@ -18,4 +18,4 @@ Track: **Binary Classification (supervised learning)**
 - The supplied CSV **is not exclusively Philippine SMS**. It combines a Philippine-focused portion and a substantially larger general English-language SMS collection. See `DATA_DESCRIPTION.md`.
 - Labels are not comprehensively audited and some legitimate-looking messages may be mislabeled. The data may include repeated or similar text and inconsistent quoting; the loader skips invalid labels and groups similar templates to limit leakage.
 - This is an **educational model**, not a guarantee that an SMS is safe. In particular, a negative classification is not security clearance for links, payments or OTPs. Real Philippine deployment would require a new, representative, independently labeled external test set.
-- No tested accuracy is claimed in this repository before running the actual C# training and held-out evaluation.
+- No tested accuracy is claimed in this repository before running the actual C# training and held-out evaluation..
