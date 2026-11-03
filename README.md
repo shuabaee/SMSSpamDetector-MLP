@@ -13,10 +13,7 @@ Track: **Binary Classification (supervised learning)**
 - Approximate split: 65% training, 15% validation, 20% held-out testing; related message templates are grouped before splitting. The word vocabulary is learned only from the training split.
 - Model and threshold selected on **validation F1**. The held-out test is not used for model selection. Because data are imbalanced, assess spam **recall and precision**, not accuracy alone.
 - The Windows Forms interface intentionally has **no on-screen graph, Save Model, Load Model, or External Test controls**. Training-loss CSVs still provide the required logs, and the confusion matrix visualizes classification performance in text.
-
-## Dataset
-
-The project uses `filipino_sms.csv` as its SMS dataset. The CSV file is located inside the `Data` directory of the project.
+- The project uses `filipino_sms.csv` as its SMS dataset. The CSV file is located inside the `Data` directory of the project.
 
 ```text
 SMSSpamDetector-MLP/
