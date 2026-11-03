@@ -1,0 +1,6 @@
+﻿Final test results for: Hidden=12, epochs=150, LR(input)=0.05, LR(output)=0.10
+N=1155 | Accuracy=96.71 % Precision=90.53 % Recall=89.58 % F1=0.901 Specificity=98.13 % MSE=0.0284
+Confusion matrix (actual rows / predicted columns):
+                   Spam      Ham
+Actual spam    TP=172    FN=20    
+Actual ham     FP=18     TN=945   

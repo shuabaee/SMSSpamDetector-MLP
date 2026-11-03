@@ -1,0 +1,6 @@
+Original records after duplicate and conflict removal: 5773
+Training: 3752, spam=621, ham=3131
+Validation: 866, spam=143, ham=723
+Held-out test: 1155, spam=192, ham=963
+Random seed: 42 for grouping/split. Vocabulary fitted using training only.
+Model and threshold chosen on validation only; test is not used to tune.
